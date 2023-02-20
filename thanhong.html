@@ -28,6 +28,12 @@
 </head>
 
 <body id="myBody">
+    <!-- <button class="btn" id="switchButton" title="Click to switch theme">
+        <i class="fa fa-sun text-white fs-4  " ></i>
+        <i class="fa fa-moon text-white fs-4  " ></i> -->
+
+    </button>
+    <!--header-->
     <header>
         <div class="container">
             <div class="top d-flex justify-content-between align-items-center pt-5">
@@ -38,19 +44,13 @@
                         <span class="fa fa-search search__icon"></span>
                     </form>
                     <div class="icon d-flex align-items-center">
-                        <a href="">
 
-                            <button class="btn" id="switchButton" title="Click to switch theme">
-                                <i class="fa fa-sun text-white fs-4  " onclick="switchTheme()"></i>
-                                <i class="fa fa-moon text-white fs-4  " onclick="switchTheme()"></i>
-
-                            </button>
-
-
-
-
-                        </a>
-                        <a href="">
+                        <button class="btn" id="switchButton" title="Click to switch theme">
+                            <i class="fa fa-sun text-white fs-4  " ></i>
+                            <i class="fa fa-moon text-white fs-4  " ></i>
+                        
+                        
+                        <a class="mx-4" href="">
                             <i class="fa fa-bars text-white fs-4 "></i>
 
                         </a>
@@ -89,6 +89,8 @@
         </div>
     </header>
 
+    <!--About-->
+
     <section class="about pt-5">
         <div class="container pt-4 d-flex ">
             <div class="trai w-50 ">
@@ -115,37 +117,252 @@
     </section>
 
 
-    <section class="booking">
-        <div class="container d-flex">
-            <div class="trai">
-                <img  src="/images/banner3.jpg" alt="" style="width: 300px; height: 300px;">
+
+    <!--booking-->
+
+
+    <section class="booking pt-3 w-100">
+        <div class=" content d-flex pt-3">
+            <div class="trai w-50">
+                <img src="/images/banner3.jpg" alt="" style="width: 100%; height:100%;">
             </div>
-            <div class="phai">
-                <h6>More than 3000 Restaurants</h6>
-                <h3>Book a table easly at the best price</h3>
-                <p>Vestibulum ante ipsum primis in faucibus orci luctus turpis sodales quis. Integer sit amet mattis
+            <div class="phai w-50  ">
+                <h6 class="title text-light fs-5">More than 3000 Restaurants</h6>
+                <h3 class="fw-bold fs-2">Book a table easly at the best price</h3>
+                <p class="text-white pt-">Vestibulum ante ipsum primis in faucibus orci luctus turpis sodales quis.
+                    Integer sit amet mattis
                     quam.Vivamus a ligula quam tesque et libero ut justo ultrices in.</p>
-                <div class="content">
+                <div class="ads d-flex pt-4 ">
                     <div class="deal">
-                        
-                       <i class="fa fa-thumbs-up"></i>
-                       <a class="d-block" href="#">Best Deals</a>
-                       <p>Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p>
+
+                        <i class="fa fa-thumbs-up fs-4"></i>
+                        <a class="d-block text-dark mt-3 fs-5 fw-bold" href="#">Best Deals</a>
+                        <p class="text-light pt-4 fs-6">Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p>
                     </div>
 
                     <div class="food">
-                        
-                        <i class="fa fa-cutlery"></i>
-                        <a class="d-block" href="#">Best Food</a>
-                        <p>Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p>
+
+                        <i class="fa fa-cutlery fs-4"></i>
+                        <a class="d-block text-dark mt-3 fs-5 fw-bold" href="#">Best Food</a>
+                        <p class="text-light pt-4 fs-6">Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p>
                     </div>
 
                 </div>
 
-                    
+
             </div>
         </div>
     </section>
+
+
+    <!--Popular-->
+
+    <section class="popular pt-5">
+        <div class="container pt-4">
+            <h1 class="text-center">What's New</h1>
+            <p class="text-center">Popular Categories</p>
+            <div class="row  ">
+                <div class="col-4 ">
+                    <a href="">
+                        <img class="img img-fluid " src="/images/g1.jpg" alt="">
+
+                    </a>
+                    <!-- <div class="overlay"></div> -->
+
+                    <div class="price">
+                        <a href="#" class="text-white fs-4 fw-bold">
+                            <h6 class="fs-5 fw-bold">Vegetarian</h6>
+                        </a>
+                        <p>$350</p>
+
+                    </div>
+
+                </div>
+                <div class="col-4   ">
+                    <a class=""  href="">
+                        <img class="img  " src="/images/g2.jpg" alt="">
+
+                    </a>
+                    <!-- <div class="overlay"></div> -->
+
+                    <div class="price">
+                        <a href="#" class="text-white fs-4 fw-bold">
+                            <h6 class="fs-5 fw-bold">Drink</h6>
+                        </a>
+                        <p>$550</p>
+
+                    </div>
+                </div>
+                <div class="col-4   ">
+                    <a class=""  href="">
+                        <img class="img " src="/images/g3.jpg" alt="">
+                    </a>
+
+                    <!-- <div class="overlay"></div> -->
+
+                    <div class="price">
+                        <a href="#" class="text-white ">
+                            <h6 class="fs-5 fw-bold">Lunch</h6>
+                        </a>
+                        <p>$650</p>
+
+                    </div>
+                </div>
+                <div class="col-4   ">
+                    <a  class="" href="">
+                        <img class="img  " src="/images/g4.jpg" alt="">
+                    </a>
+
+                    <!-- <div class="overlay"></div> -->
+
+                    <div class="price">
+                        <a href="#" class="text-white fs-4 fw-bold">
+                            <h6 class="fs-5 fw-bold">Bakery</h6>
+                        </a>
+                        <p>$550</p>
+
+                    </div>
+                </div>
+                <div class="col-4  ">
+                    <a  class="" href="">
+                        <img class="img  " src="/images/g5.jpg" alt="">
+                    </a>
+
+                    <!-- <div class="overlay"></div> -->
+
+                    <div class="price">
+                        <a href="#" class="text-white fs-4 fw-bold">
+                            <h6 class="fs-5 fw-bold">Desserts</h6>
+                        </a>
+                        <p>$750</p>
+
+                    </div>
+                </div>
+                <div class="col-4   ">
+                    <a class=""  href="">
+                        <img class="img   " src="/images/g6.jpg" alt="">
+
+                    </a>
+
+                    <!-- <div class="overlay"></div> -->
+
+                    <div class="price">
+                        <a class=""  href="#" class="text-white fs-4 fw-bold">
+                            <h6 class="fs-5 fw-bold">Pizza</h6>
+                        </a>
+                        <p>$850</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--menu-->
+
+
+    <section class="menu pt-5">
+        <div class="container    pt-5">
+            <div class="row w-100 d-flex flex-wrap  ">
+
+                <div class="col-4   px-auto  border border-transparent mx-2 mt-2">
+                    <div class="content d-flex">
+                        <div class="icon mx-4 mt-3 ">
+                            <i class="fa fa-utensils fs-4"></i>
+                        </div>
+
+                        <div class="info w-75 p-3 mx-1">
+                            <p class="my-0">01</p>
+                            <a href="">
+                                <h4 class="">Soup</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                </div>
+                <div class="col-4   px-auto  border border-transparent mx-2 mt-2">
+                    <div class="content d-flex">
+                        <div class="icon mx-4 mt-3 ">
+                            <i class="fa fa-glass-cheers fs-4"></i>
+                        </div>
+
+                        <div class="info w-75 p-3 mx-1">
+                            <p class="my-0">02</p>
+                            <a href="">
+                                <h4 class="">Drinks</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                </div>
+                <div class="col-4   px-auto  border border-transparent mx-2 mt-2">
+                    <div class="content d-flex">
+                        <div class="icon mx-4 mt-3 ">
+                            <i class="fa fa-pizza-slice fs-4"></i>
+                        </div>
+
+                        <div class="info w-75 p-3 mx-1">
+                            <p class="my-0">03</p>
+                            <a href="">
+                                <h4 class="">Pizza</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                </div>
+                <div class="col-4   px-auto  border border-transparent mx-2 mt-2">
+                    <div class="content d-flex">
+                        <div class="icon mx-4 mt-3 ">
+                            <i class="fa fa-bread-slice fs-4"></i>
+                        </div>
+
+                        <div class="info w-75 p-3 mx-1">
+                            <p class="my-0">04</p>
+                            <a href="">
+                                <h4 class="">Breakfast</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                </div>
+                <div class="col-4   px-auto  border border-transparent mx-2 mt-2">
+                    <div class="content d-flex">
+                        <div class="icon mx-4 mt-3 ">
+                            <i class="fa fa-hotdog fs-4"></i>
+                        </div>
+
+                        <div class="info w-75 p-3 mx-1">
+                            <p class="my-0">05</p>
+                            <a href="">
+                                <h4 class="">Lunch</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                </div>
+                <div class="col-4   px-auto  border border-transparent mx-2 mt-2">
+                    <div class="content d-flex">
+                        <div class="icon mx-4 mt-3 ">
+                            <i class="fa fa-concierge-bell fs-4"></i>
+                        </div>
+
+                        <div class="info w-75 p-3 mx-1">
+                            <p class="my-0">06</p>
+                            <a href="">
+                                <h4 class="">Dinner</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
 
 
 
