@@ -359,6 +359,59 @@
     color: #ff6600;
     transition: 1s;
   }
+
+
+
+
+
+
+
+
+
+
+/*a Nghĩa*/
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.statis{
+    background: url(../images/banner2.jpg) no-repeat center;
+    position: relative;
+    z-index: 1;
+}
+
+.statis .content .title{
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 600;
+    color: #fff;
+    max-width: 700px;
+    margin: auto;
+}
+
+
+.btn-style, .btn-white {
+    padding: 12px 45px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    transition: 0.3s ease-in;
+    border-radius: var(--border-radius);
+    border: 2px solid transparent;
+    }
+
+    
+    .btn-white {
+        background: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+    }
+
+
+
+
   
   
   
