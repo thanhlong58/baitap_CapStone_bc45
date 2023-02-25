@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+  
+  }
+  
+  /*
+  chinh theme sang va toi
+  
+  /* Light theme */
+  #myBody {
+    background: white;
+  
+  }
+  
+  .dark #switchButton .fa-moon {
+    display: inline-block;
+  
+  }
+  
+  #switchButton .fa-sun {
+    display: none;
+  }
+  
+  
+  
+  /* Dark Theme*/
+  .dark#myBody {
+    background: black;
+    color: white;
+  }
+  
+  .dark .search input {
+    background-color: black;
+  }
+  
+  .dark #switchButton .fa-sun {
+    display: inline-block;
+  
+  }
+  
+  .dark #switchButton .fa-moon {
+    display: none;
+  }
+  
+  .dark header .container .search .search_input {
+    color: white;
+  
+  
+  
+  }
+  
+  
+  
+  
+  /*header*/
+  
+  
+  
+  
+  
+  
+  
+  
+  header {
+    background-size: cover;
+    background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)), url(/images/banner1.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: initial;
+    background-attachment: fixed;
+    min-height: 700px;
+  
+  }
+  
+  
+  
+  header .top .search_input {
+    padding: 10px 50px 10px 20px;
+    height: 45px;
+    font-size: 16px;
+    border-radius: 10px;
+  
+  }
+  
+  
+  header .top span {
+    position: absolute;
+    top: 15px;
+    left: 210px;
+  }
+  
+  header .top .icon i {
+    margin-left: 20px;
+  }
+  
+  header .bottom {
+    padding-top: 100px;
+    width: 50%;
+  
+  
+  
+  
+  }
+  
+  header .btn-white {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 12px 45px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    transition: 0.3s ease-in;
+    border-radius: 5px;
+  
+  }
+  
+  header .btn-white:hover {
+    background-color: white;
+    color: orange;
+    transition: all 0.5s;
+  }
+  
+  
+  
+  /*about*/
+  
+  
+  .about .container .trai h6 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #ff8a6b;
+    display: block;
+    font-family: 'Pacifico', cursive !important;
+  }
+  
+  
+  .about .container .trai {
+    width: 50%;
+  }
+  .about .container .phai {
+    width: 50%;
+  }
+  
+  
+  
+  /*booking*/
+  .booking .content .trai {
+    position: relative;
+    width: 50%;
+  }
+  
+  .booking .content .trai::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(16 15 19 / 46%);
+  
+  }
+  
+  .booking .content .phai {
+    background-color: #ff6600;
+    padding: 80px;
+    width: 50%;
+  }
+  
+  .booking .content .phai h6 {
+    font-family: 'Pacifico', cursive !important;
+  }
+  
+  .booking .content .ads a {
+    text-decoration: none;
+  }
+  
+  .booking .content .ads i {
+    padding: 20px 20px;
+    background-color: white;
+    color: #ff6600;
+    border-radius: 5px;
+    transition: 0.5s;
+  
+  }
+  
+  .booking .content .ads i:hover {
+    color: rgb(189, 189, 17);
+    transition: 0.5s
+  }
+  
+  
+  
+  /*popular*/
+  
+  .popular .container h1 {
+    font-family: 'Pacifico', cursive !important;
+    color: #ff6620;
+  }
+  
+  
+  .popular .container .row .col-6 img {
+    max-width: 100%;
+    height: auto;
+  
+  
+    object-fit: fill;
+    border-radius: 10px;
+  
+  
+  
+  
+  
+  
+  
+  }
+  
+  .popular .container .row .col-6 {
+    margin-top: 30px;
+    margin-right: auto;
+    border-radius: 10px;
+  }
+  
+  .popular .container .row .col-6 .hinh {
+    position: relative;
+  }
+  
+  .popular .container .row .col-6 .hinh::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(163, 149, 149, 0.5);
+    border-radius: 10px;
+  
+  
+    opacity: 0;
+    transition: 1s;
+  
+  
+  }
+  
+  
+  
+  .popular .container .row .col-6 .hinh:hover::after {
+    opacity: 1;
+    transition: 1s;
+  }
+  
+  
+  
+  
+  
+  .popular .container .row .col-6 {
+    position: relative;
+  }
+  
+  .popular .container .row .price {
+    display: inline-block;
+    position: absolute;
+    bottom: 60px;
+    left: 70px;
+  }
+  
+  .popular .container .row a {
+    text-decoration: none;
+  }
+  
+  
+  .popular .container .row p {
+    font-weight: bold;
+    color: #daaa03;
+  
+  }
+  
+  
+  
+  
+  /*menu*/
+  
+  
+  .menu .container {
+    max-width: 1200px;
+  
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .menu .container .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+  
+  }
+  
+  .menu .container .row .col-4 {
+    border: 1px solid #eee;
+    border-radius: 5px;
+  
+    margin: 15px;
+    max-width: 350px;
+    height: auto;
+  
+  
+  
+  }
+  
+  
+  
+  
+  .menu .container .icon {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    background: rgb(130 115 252 / 5%);
+    line-height: 70px;
+    transition: 0.5s;
+    border-radius: 5px;
+  }
+  
+  
+  .menu .container .icon i {
+    color: #ff6600;
+  }
+  
+  .menu .container .row .info a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    display: block;
+  
+  
+  }
+  
+  .menu .container .row .content .icon:hover {
+    background-color: #ff6600;
+  
+    transition: 0.5s;
+  }
+  
+  .menu .container .row .content .icon:hover i {
+    color: white;
+    transition: 0.5s;
+  }
+  
+  
+  
+  .menu .container .row .info a:hover h4 {
+    color: #ff6600;
+    transition: 1s;
+  }
+  
+  
+  
+  
+  /*responsive*/
+  
+  /* màn hình 576px*/
+  @media screen and (max-width: 576px) {
+    /*header*/
+    header .container .top .content .search {
+      display: none;
+    }
+    header .container .bottom {
+      width: 100%;
+    }
+  
+  
+    /*about*/
+  
+    .about .container {
+      flex-direction: column;
+  
+    }
+  
+    .about .container .trai {
+      width: 100%;
+    }
+  
+    .about .container .phai {
+      width: 100%;
+    }
+  
+    .about .container .phai p {
+      display: none;
+    }
+  
+  
+  
+    /*booking*/
+    .booking .content {
+      flex-direction: column;
+    }
+  
+    .booking .content .trai {
+      width: 100%;
+      height: auto;
+    }
+  
+    .booking .content .phai {
+      width: 100%;
+      height: auto;
+    }
+  
+    /*menu*/
+   
+  }
+  
+  /*màn hình 768px*/
+  @media screen and (max-width: 768px) and (min-width: 577px) {
+  
+    /*header*/
+    header .container .bottom {
+      width: 80%;
+    }
+  
+  
+    /*about*/
+  
+    .about .container {
+      flex-direction: column;
+  
+    }
+  
+    .about .container .trai {
+      width: 100%;
+    }
+  
+    .about .container .phai {
+      width: 100%;
+    }
+  
+    /*booking*/
+    .booking .content {
+      flex-direction: column;
+    }
+  
+    .booking .content .trai {
+      width: 100%;
+      height: auto;
+    }
+  
+    .booking .content .phai {
+      width: 100%;
+      height: auto;
+    }
+  
+    
+  }

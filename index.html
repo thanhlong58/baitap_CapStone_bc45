@@ -6,6 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capstone</title>
+    <!--font google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <!--css boostrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -14,12 +22,363 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        
+
     <!--css custom-->
     <link rel="stylesheet" href="/style/index.css">
 </head>
 
-<body>
+<body id="myBody">
+    <!-- <button class="btn" id="switchButton" title="Click to switch theme">
+        <i class="fa fa-sun text-white fs-4  " ></i>
+        <i class="fa fa-moon text-white fs-4  " ></i> -->
+
+    </button>
+    <!--header-->
+    <header>
+        <div class="container">
+            <div class="top d-flex justify-content-between align-items-center pt-5">
+                <h1 class="text-white fw-bold fs-2">Diner</h1>
+                <div class="content d-flex position-relative">
+                    <form class="search  ">
+                        <input type="search" class="search_input" name="search" placeholder="Search here..">
+                        <span class="fa fa-search search__icon"></span>
+                    </form>
+                    <div class="icon d-flex align-items-center">
+
+                        <button class="btn" id="switchButton" title="Click to switch theme">
+                            <i class="fa fa-sun text-white fs-4  " ></i>
+                            <i class="fa fa-moon text-white fs-4  " ></i>
+                        
+                        
+                        <a class="mx-4" href="">
+                            <i class="fa fa-bars text-white fs-4 "></i>
+
+                        </a>
+
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+
+
+
+
+
+            <div class="bottom   ">
+                <h1 class="mt-5 text-light display-4 z-3 fw-bold ">The Only Thing We Love More Than Food Is You!</h1>
+                <p class="text-white pt-2 ">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.Ea
+                    ipsum sed consequuntur illum
+                    facere.</p>
+
+
+                <a class="btn btn-white mt-sm-5 mt-4 mr-2 " href="#">
+                    Read More <span class="fa fa-chevron-right ml-2"></span></a>
+
+
+            </div>
+        </div>
+    </header>
+
+    <!--About-->
+
+    <section class="about pt-5">
+        <div class="container pt-4 d-flex ">
+            <div class="trai  ">
+                <h6 class="title">About Us</h6>
+                <h3>
+                    <h3 class="title-w3l mb-4 w-50 fs-1 fw-bold w-75 ">
+                        We found our creative space that is open for you.
+                    </h3>
+                </h3>
+
+            </div>
+            <div class="phai  text-secondary">
+                <p class="fs-5">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at
+                    tempufddfel. Lorem ipsum dolor sit amet elit. Non quae, fugiat nihil ad. Lorem ipsum dolor sit amet.
+                    Lorem ipsum init dolor sit, amet elit. Dolor ipsum non velit, culpa!Lorem ipsum init dolor sit.
+                    <br>
+                    <br>
+                    Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at
+                    tempufddfel. Lorem ipsum dolor sit amet elit. Non quae, fugiat nihil ad. Lorem ipsum dolor sit amet.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--booking-->
+
+
+    <section class="booking pt-3 w-100">
+        <div class=" content d-flex pt-3">
+            <div class="trai ">
+                <img src="/images/banner3.jpg" alt="" style="width: 100%; height:100%;">
+            </div>
+            <div class="phai   ">
+                <h6 class="title text-light fs-5">More than 3000 Restaurants</h6>
+                <h3 class="fw-bold fs-2">Book a table easly at the best price</h3>
+                <p class="text-white pt-">Vestibulum ante ipsum primis in faucibus orci luctus turpis sodales quis.
+                    Integer sit amet mattis
+                    quam.Vivamus a ligula quam tesque et libero ut justo ultrices in.</p>
+                <div class="ads d-flex pt-4 ">
+                    <div class="deal">
+
+                        <i class="fa fa-thumbs-up fs-4"></i>
+                        <a class="d-block text-dark mt-3 fs-5 fw-bold" href="#">Best Deals</a>
+                        <p class="text-light pt-4 fs-6">Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p>
+                    </div>
+
+                    <div class="food">
+
+                        <i class="fa fa-cutlery fs-4"></i>
+                        <a class="d-block text-dark mt-3 fs-5 fw-bold" href="#">Best Food</a>
+                        <p class="text-light pt-4 fs-6">Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--Popular-->
+
+    <section class="popular pt-5 ">
+        <div class="container pt-4">
+            <h1 class="text-center fs-4">What's New</h1>
+            <p class="text-center fs-1 fw-bold">Popular Categories</p>
+            <div class="row  ">
+                <div class="col-6 col-md-4">
+                    <div class="hinh">
+                        <a href="">
+                            <img class="img img-fluid " src="/images/g1.jpg" alt="">
+    
+                        </a>
+                    </div>
+                   
+                    <!-- <div class="overlay"></div> -->
+
+                    <div class="price">
+                        <a href="#" class="text-white fs-4 fw-bold">
+                            <h6 class="fs-5 fw-bold">Vegetarian</h6>
+                        </a>
+                        <p>$350</p>
+
+                    </div>
+
+                </div>
+                <div class="col-6 col-md-4   ">
+                    <div class="hinh">
+                        <a class=""  href="">
+                            <img class="img  " src="/images/g2.jpg" alt="">
+    
+                        </a>
+                    </div>
+                    
+                    <!-- <div class="overlay"></div> -->
+
+                    <div class="price">
+                        <a href="#" class="text-white fs-4 fw-bold">
+                            <h6 class="fs-5 fw-bold">Drink</h6>
+                        </a>
+                        <p>$550</p>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-4   ">
+                   
+                   <div class="hinh">
+                    <a class=""  href="">
+                        <img class="img " src="/images/g3.jpg" alt="">
+                    </a>
+                   </div>
+
+                    <!-- <div class="overlay"></div> -->
+
+                    <div class="price">
+                        <a href="#" class="text-white ">
+                            <h6 class="fs-5 fw-bold">Lunch</h6>
+                        </a>
+                        <p>$650</p>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-4   ">
+                    <div class="hinh">
+                        <a  class="" href="">
+                            <img class="img  " src="/images/g4.jpg" alt="">
+                        </a>
+                    </div>
+                    
+
+                    <!-- <div class="overlay"></div> -->
+
+                    <div class="price">
+                        <a href="#" class="text-white fs-4 fw-bold">
+                            <h6 class="fs-5 fw-bold">Bakery</h6>
+                        </a>
+                        <p>$550</p>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-4  ">
+                    <div class="hinh">
+                        <a  class="" href="">
+                            <img class="img  " src="/images/g5.jpg" alt="">
+                        </a>
+    
+
+                    </div>
+                    
+                    <!-- <div class="overlay"></div> -->
+
+                    <div class="price">
+                        <a href="#" class="text-white fs-4 fw-bold">
+                            <h6 class="fs-5 fw-bold">Desserts</h6>
+                        </a>
+                        <p>$750</p>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-4   ">
+                    <div class="hinh">
+                        <a class=""  href="">
+                            <img class="img   " src="/images/g6.jpg" alt="">
+    
+                        </a>
+                    </div>
+                    
+
+                    <!-- <div class="overlay"></div> -->
+
+                    <div class="price">
+                        <a class=""  href="#" class="text-white fs-4 fw-bold">
+                            <h6 class="fs-5 fw-bold text-white">Pizza</h6>
+                        </a>
+                        <p>$850</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--menu-->
+
+
+    <section class="menu pt-5">
+        <div class="container    pt-5">
+            <div class="row w-100   ">
+
+                <div class="col-12  col-sm-6 col-md-4  ">
+                    <div class="content d-flex">
+                        <div class="icon mx-4 mt-3 ">
+                            <i class="fa fa-utensils fs-4"></i>
+                        </div>
+
+                        <div class="info w-75 p-3 mx-1">
+                            <p class="my-0">01</p>
+                            <a href="">
+                                <h4 class="">Soup</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                </div>
+                <div class="col-12  col-sm-6 col-md-4  ">
+                    <div class="content d-flex">
+                        <div class="icon mx-4 mt-3 ">
+                            <i class="fa fa-glass-cheers fs-4"></i>
+                        </div>
+
+                        <div class="info w-75 p-3 mx-1">
+                            <p class="my-0">02</p>
+                            <a href="">
+                                <h4 class="">Drinks</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                </div>
+                <div class="col-12  col-sm-6 col-md-4  ">
+                    <div class="content d-flex">
+                        <div class="icon mx-4 mt-3 ">
+                            <i class="fa fa-pizza-slice fs-4"></i>
+                        </div>
+
+                        <div class="info w-75 p-3 mx-1">
+                            <p class="my-0">03</p>
+                            <a href="">
+                                <h4 class="">Pizza</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                </div>
+                <div class="col-12  col-sm-6 col-md-4 ">
+                    <div class="content d-flex">
+                        <div class="icon mx-4 mt-3 ">
+                            <i class="fa fa-bread-slice fs-4"></i>
+                        </div>
+
+                        <div class="info w-75 p-3 mx-1">
+                            <p class="my-0">04</p>
+                            <a href="">
+                                <h4 class="">Breakfast</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                </div>
+                <div class="col-12  col-sm-6 col-md-4">
+                    <div class="content d-flex">
+                        <div class="icon mx-4 mt-3 ">
+                            <i class="fa fa-hotdog fs-4"></i>
+                        </div>
+
+                        <div class="info w-75 p-3 mx-1">
+                            <p class="my-0">05</p>
+                            <a href="">
+                                <h4 class="">Lunch</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                </div>
+                <div class="col-12  col-sm-6 col-md-4 ">
+                    <div class="content d-flex">
+                        <div class="icon mx-4 mt-3 ">
+                            <i class="fa fa-concierge-bell fs-4"></i>
+                        </div>
+
+                        <div class="info w-75 p-3 mx-1">
+                            <p class="my-0">06</p>
+                            <a href="">
+                                <h4 class="">Dinner</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -33,12 +392,36 @@
 
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script>
+        /**
+    Solution: 
+    Khi click vào nút moon 🌙 , thẻ body sẽ được thêm class dark.
+    Dựa vào class dark, ta viết css dành riêng cho dark theme.
+    
+    Ngược lại, khi click vào nút sun ☀️, ta sẽ xóa class dark để css light theme hiện lại
+    
+    */
+
+        //gọi thẻ button có id là switchButton
+        // gắn chức năng click cho switchButton
+        document.getElementById("switchButton").onclick = function switchTheme() {
+            //khi button được click thì tìm đến thẻ body có id là myBody
+            // dùng classlist để gọi thuộc tính class của thẻ body
+            //Sử dụng toggle() để thêm hoặc xóa 1 class của thẻ html. Nếu thẻ body không có class dark thì toggle sẽ thêm class dark vào body. Ngược lại, nếu thẻ body đang có class dark thì toogle sẽ xóa class dark đi.
+            document.getElementById('myBody').classList.toggle('dark');
+        };
 
 
-    <!--js boostrap-->
+
+    </script>
+
+    <!--boostrap js-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+
 </body>
 
-</html>
+</html
